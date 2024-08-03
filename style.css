@@ -3,7 +3,7 @@ html {
   }
   
   body {
-    background: linear-gradient(to bottom, #3b5998, #0a1d37);
+    background-color: #0a1d37;
     color: white;
   }
   
@@ -14,7 +14,8 @@ html {
   
   .navbar {
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -10px;
-    background: linear-gradient(to bottom, #3b5998, #0a1d37);
+    /* new */
+    background-color: #0a1d37;
     z-index: 1024;
   }
   
@@ -108,7 +109,7 @@ html {
   :root {
     --primary: #22d2a0;
     --secondary: #192824;
-    --background: linear-gradient(to bottom, #3b5998, #0a1d37);
+    --background: #0a1d37;
     --green: rgb(100, 255, 218);
     --yellow: #ffd913;
     --orange: #ff9c55;
@@ -126,7 +127,8 @@ html {
   }
   
   footer {
-    background: linear-gradient(to bottom, #3b5998, #0a1d37);
+    /* new */
+    background-color:#0a1d37;
     bottom: 0;
     padding-left: 30pxb;
     left: 0;
