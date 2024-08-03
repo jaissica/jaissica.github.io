@@ -3,7 +3,7 @@ html {
   }
   
   body {
-    background-color: rgb(10, 25, 47);
+    background: linear-gradient(to bottom, #6a89cc, #0c2461);
     color: white;
   }
   
@@ -14,7 +14,7 @@ html {
   
   .navbar {
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -10px;
-    background-color: rgb(10, 25, 47);
+    background: linear-gradient(to bottom, #6a89cc, #0c2461);
     z-index: 1024;
   }
   
@@ -125,7 +125,7 @@ html {
   }
   
   footer {
-    background: rgb(10, 25, 47);
+    background: linear-gradient(to bottom, #6a89cc, #0c2461);
     bottom: 0;
     padding-left: 30pxb;
     left: 0;
@@ -140,7 +140,7 @@ html {
   .loader {
     width: 100%;
     height: 100%;
-    background-color: rgb(10, 25, 47);
+    background: linear-gradient(to bottom, #6a89cc, #0c2461);
     position: fixed;
     top: 0px;
     left: 0px;
