@@ -34,7 +34,7 @@ html {
     height: 17px;
     background-image: none;
     position: relative;
-    border-bottom: 1px solid rgb(100, 255, 218);
+    border-bottom: 1px solid #FF9398;
     transition: all 300ms linear;
   }
   
@@ -43,7 +43,7 @@ html {
     width: 24px;
     position: absolute;
     height: 1px;
-    background-color: rgb(100, 255, 218);
+    background-color: #FF9398;
     top: 0;
     left: 0;
     content: "";
@@ -69,7 +69,7 @@ html {
   
   #navtext,
   #main {
-    color: rgb(100, 255, 218);
+    color: #FF9398;
     font-family: "Fira Mono", monospace;
   }
   
@@ -108,7 +108,7 @@ html {
   :root {
     --primary: #22d2a0;
     --secondary: #192824;
-    --background: #192824;
+    --background: linear-gradient(to bottom, #6a89cc, #0c2461);
     --green: rgb(100, 255, 218);
     --yellow: #ffd913;
     --orange: #ff9c55;
