@@ -71,7 +71,7 @@ html {
   #navtext,
   #main {
     color: #ffd700;
-    font-family: "Fira Mono", monospace;
+    font-family: "Work Sans", sans-serif;
   }
   
   #heading {
@@ -138,8 +138,6 @@ html {
     -moz-box-shadow: 0px -4px 5px 0px rgba(2, 12, 27, 0.7);
     box-shadow: 0px -4px 5px 0px rgba(2, 12, 27, 0.7);
   }
-  
-  /* Pre-loader Starts */
   
   .loader {
     width: 100%;
