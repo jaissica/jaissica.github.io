@@ -35,7 +35,7 @@ html {
     height: 17px;
     background-image: none;
     position: relative;
-    border-bottom: 1px solid #FF9398;
+    border-bottom: 1px solid #ffd700;
     transition: all 300ms linear;
   }
   
@@ -44,7 +44,7 @@ html {
     width: 24px;
     position: absolute;
     height: 1px;
-    background-color: #FF9398;
+    background-color: #ffd700;
     top: 0;
     left: 0;
     content: "";
@@ -112,6 +112,7 @@ html {
     --background: linear-gradient(to bottom, #3b5998, #0a1d37);;
     --green: rgb(100, 255, 218);
     --yellow: #ffd913;
+    --primary-yellow: #ffd700;
     --orange: #ff9c55;
     --red: #ff5555;
     --pink: #FF9398;
