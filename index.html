@@ -107,7 +107,7 @@
     <!-- About Section -->
     <div class ="about container"
         id="about">
-        <h2 class="text-center text-md-left">
+        <h2 class="text-align">
             <section id="main">
                 About Me
             </section>
@@ -657,13 +657,13 @@
         padding-right: 15px;
     }
 
-    .text-md-left {
+    /* .text-md-left {
         text-align: left !important;
     }
 
     .text-center {
         text-align: center !important;
-}
+    } */
 
     @media (max-width: 768px) {
         .about .row {
@@ -673,6 +673,13 @@
         .about .row .col-12 {
             padding-left: 15px;
             padding-right: 15px;
+        }
+    }
+
+    .text-align {
+        text-align: left;
+        @media (max-width: 768px) {
+            text-align: center;
         }
     }
     </style>
