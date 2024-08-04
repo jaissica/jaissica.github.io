@@ -14,7 +14,6 @@ html {
   
   .navbar {
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -10px;
-    /* new */
     background: linear-gradient(to bottom, #3b5998, #0a1d37);;
     z-index: 1024;
   }
@@ -71,10 +70,10 @@ html {
   #navtext,
   #main {
     color: #ffd700;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Fira Mono", monospace;
   }
   
-  #heading {
+  #heading1 {
     color: white;
     font-size: 5em;
     font-family: "Work Sans", sans-serif;
@@ -87,16 +86,11 @@ html {
   }
   
   #heading3 {
-    /* padding-top: 1em; */
     color: white;
     font-size: 1em;
     font-family: "Work Sans", sans-serif;
   }
-  
-  .container {
-    padding-top: 5rem;
-  }
-  
+
   #heading4 {
     color: white;
     font-family: "Work Sans", sans-serif;
@@ -106,19 +100,22 @@ html {
     color: white;
   }
   
-  :root {
-    --primary: #22d2a0;
-    --secondary: #192824;
-    --background: linear-gradient(to bottom, #3b5998, #0a1d37);;
-    --green: rgb(100, 255, 218);
-    --yellow: #ffd913;
-    --primary-yellow: #ffd700;
-    --orange: #ff9c55;
-    --red: #ff5555;
-    --pink: #FF9398;
+  .container {
+    padding-top: 5rem;
   }
   
-  /* Contact Me Starts */
+  :root {
+    /* --primary: #22d2a0; */
+    /* --secondary: #192824; */
+    --background: linear-gradient(to bottom, #3b5998, #0a1d37);;
+    /* --green: rgb(100, 255, 218); */
+    /* --yellow: #ffd913; */
+    --yellow: #FF9398;
+    --primary-yellow: #ffd700;
+    /* --orange: #ff9c55; */
+    /* --red: #ff5555; */
+    /* --pink: #FF9398; */
+  }
   
   .list {
     display: flex;
@@ -156,5 +153,3 @@ html {
     color: "##ffd700";
     background: url(./asset/loading.gif) center center no-repeat;
   }
-  
-  /* Pre-loader Ends */
