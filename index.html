@@ -107,14 +107,14 @@
     <!-- About Section -->
     <div class ="about container"
         id="about">
-        <h2 class="justify-content-center justify-content-md-none">
+        <h2 class="justify-content-center justify-content-md-none text-center">
             <section id="main">
                 About Me
             </section>
         </h2>
         <!-- md viewport and above -->
-        <div class="row d-none d-md-block">
-            <div class="col-8">
+        <div class="row d-none d-md-flex">
+            <div class="col-md-8">
                 <br>
                 <h4 id="heading3"> Hello! I'm Jaissica, pursuing <span id="main"> Master of Science </span>
                     in <span id="main">Computer Science</span> at <span id="main">Khoury College of Computer Sciences, Northeastern University</span>
@@ -204,15 +204,15 @@
                     <p>Actively seeking challenging SDE roles starting Jan 2025 onwards</p>
                     <br>
             </div>
-            <div class="col-4 pt-4">
+            <div class="col-md-4 pt-4">
                 <img src="./asset/Jaissica.jpg"
                      alt="Jaissica Hora image"
                      class="img-thumbnail jaissica-img">
             </div>
         </div>
         <!-- md viewport ad below -->
-        <div class="row d-block d-md-none">
-            <div class="pt-4 justify-content-center">
+        <div class="row d-flex d-md-none text-center">
+            <div class="col-12 pt-4 justify-content-center">
                 <img src="./asset/Jaissica.jpg"
                      alt="Jaissica Hora image"
                      class="img-thumbnail jaissica-img"
@@ -220,18 +220,17 @@
                      height="200">
             </div>
             <br>
-            <div class="justify-content-center">
+            <div class="col-12 justify-content-center">
                 <a class="btn border btn-lg custom-border-color text-color-yellow"
                    href="https://drive.google.com/file/d/1uxXdGDH23tj54R4vfHPhJtL3H8kO_JxE/view?usp=sharing"
                    role="button">
                     Resume
                 </a>
             </div>
-            <br>
-            <p class="px-20">Actively seeking challenging SDE roles starting Jan 2025 onwards</p>
-            <br>
-            <div class="px-20">
-                <br>
+            <div class="col-12">
+                <p class="px-3">Actively seeking challenging SDE roles starting Jan 2025 onwards</p>
+            </div>
+            <div class="col-12 px-3">
                 <h4 id="heading3"> Hello! I'm Jaissica, pursuing <span id="main"> Master of Science </span>
                     in <span id="main">Computer Science</span> at <span id="main">Khoury College of Computer Sciences, Northeastern University</span>
                     in Boston, Massachusetts. <br>
@@ -653,4 +652,19 @@
         background: linear-gradient(to bottom, #3b5998, #0a1d37);
     }
 
+    .about .row {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    @media (max-width: 768px) {
+        .about .row {
+            text-align: center;
+        }
+
+        .about .row .col-12 {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
     </style>
