@@ -210,7 +210,7 @@
                      class="img-thumbnail jaissica-img">
             </div>
         </div>
-        <!-- md viewport ad below -->
+        <!-- md viewport and below -->
         <div class="row d-flex d-md-none text-center">
             <div class="col-12 pt-4 justify-content-center">
                 <img src="./asset/Jaissica.jpg"
@@ -239,7 +239,7 @@
                     <br>
                     <br>
                     <p id="main"> <i>Here are the few technologies I've been working with recently: </i><br>
-                    <ul class="list-inline text-align-left" id="main">
+                    <ul class="list-inline" id="main">
                         <h5>
                             <ol>
                                 <p class= "text-color-white">Programming: </p>
@@ -631,11 +631,11 @@
 
 <style lang="scss" scoped>
     .jaissica-img {
-        border-color: #ffd700 !important;
+        border-color: #ffd700;
     }
 
     .custom-border-color {
-        border-color: #d1d1d1 !important;
+        border-color: #d1d1d1;
     }
 
     .text-color-white {
@@ -671,6 +671,11 @@
         text-align: left;
         @media (max-width: 768px) {
             text-align: center;
+        }
+    }
+    .ul {
+        @media (max-width: 768px) {
+            text-align: left !important;
         }
     }
     </style>
